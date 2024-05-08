@@ -8,3 +8,8 @@ server.rs dan client.rs menunjukkan interaksi antara server dan klien melalui We
 ![Server Change Port](img/server-change-port.png)
 ![Client Change Port](img/client-change-port.png)
 Saya berhasil mengubah port server saya yang sebelumnya adalah 2000 menjadi 8080. Selain itu, saya juga harus mengubah client yang sebelumnya mencoba untuk terhubung ke port 2000 sekarang menjadi 8080, sesuai dengan perubahan yang saya lakukan pada server. Server dan Client pun berhasil saya jalankan.
+
+## Experiment 2.3: Small changes, add IP and Port
+![Server Add Information](img/server-add-information.png)
+![Client Add Information](img/client-add-information.png)
+Pada perubahan kali ini, saya mengubah keluaran atau output yang dihasilkan. Dimana output tidak hanya mengirimkan pesannya saja, tetapi juga siapa yang mengirim pesan dengan menampilkan IP.
